@@ -1,0 +1,61 @@
+ALGORITHM
+SIMPLE PAYROLL MANAGEMENT SYSTEM
+
+Step 1: Start the program.
+
+Step 2: Display the title
+        “SIMPLE PAYROLL MANAGEMENT SYSTEM”.
+
+Step 3: Open the file “payroll_report.txt” for writing.
+
+Step 4: Prompt the user to enter the number of employees.
+
+Step 5: Set TotalNetSalary = 0.
+
+Step 6: Repeat the following steps for each employee:
+
+        a. Enter Employee ID.
+        b. Enter Employee Name.
+        c. Enter Department.
+        d. Enter Basic Salary.
+        e. Enter Allowance.
+        f. Enter Deduction.
+
+Step 7: Validate the input values.
+
+        If Basic Salary, Allowance or Deduction is less than zero:
+            Display “Invalid Payroll Record.”
+            Skip calculations for that employee.
+
+        Otherwise:
+
+            Gross Salary = Basic Salary + Allowance
+
+            Net Salary = Gross Salary – Deduction
+
+Step 8: Determine the payment status.
+
+        If Deduction is greater than Gross Salary:
+            Salary Status = “Review Required”
+
+        Else:
+            Salary Status = “Ready for Payment”
+
+Step 9: Display the employee payroll report.
+
+Step 10: Save the employee payroll details into
+         Payroll_report.txt.
+
+Step 11: Add Net Salary to TotalNetSalary.
+
+Step 12: Continue until all employees have been processed.
+
+Step 13: Display the final summary showing:
+         - Total Employees Processed
+         - Total Net Salary
+
+Step 14: Close payroll_report.txt.
+
+Step 15: End the program.
+
+
