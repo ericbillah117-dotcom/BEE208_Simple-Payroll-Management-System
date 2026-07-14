@@ -1,0 +1,88 @@
+
+PSEUDOCODE
+SIMPLE PAYROLL MANAGEMENT SYSTEM
+
+START
+
+    DISPLAY “==========================================”
+    DISPLAY “ SIMPLE PAYROLL MANAGEMENT SYSTEM”
+    DISPLAY “==========================================”
+
+    OPEN payroll_report.txt FOR WRITING
+
+    INPUT number Of Employees
+
+    SET totalEmployees = numberOfEmployees
+    SET totalNetSalary = 0
+
+    FOR employee = 1 TO numberOfEmployees DO
+
+        DISPLAY “Employee “, employee
+
+        INPUT employeeID
+        INPUT employeeName
+        INPUT department
+        INPUT basicSalary
+        INPUT allowance
+        INPUT deduction
+
+        IF (basicSalary < 0) OR
+           (allowance < 0) OR
+           (deduction < 0) THEN
+
+            DISPLAY “Invalid Payroll Record.”
+            WRITE “Invalid Payroll Record.” TO payroll_report.txt
+
+        ELSE
+
+            grossSalary = basicSalary + allowance
+
+            netSalary = grossSalary – deduction
+
+            IF deduction > grossSalary THEN
+                salaryStatus = “Review Required”
+            ELSE
+                salaryStatus = “Ready for Payment”
+            ENDIF
+
+            DISPLAY “------------------------------------”
+            DISPLAY “Employee ID      : “, employeeID
+            DISPLAY “Employee Name    : “, employeeName
+            DISPLAY “Department       : “, department
+            DISPLAY “Basic Salary     : “, basicSalary
+            DISPLAY “Allowance        : “, allowance
+            DISPLAY “Deduction        : “, deduction
+            DISPLAY “Gross Salary     : “, grossSalary
+            DISPLAY “Net Salary       : “, netSalary
+            DISPLAY “Salary Status    : “, salaryStatus
+            DISPLAY “------------------------------------”
+
+            WRITE employeeID TO payroll_report.txt
+            WRITE employeeName TO payroll_report.txt
+            WRITE department TO payroll_report.txt
+            WRITE basicSalary TO payroll_report.txt
+            WRITE allowance TO payroll_report.txt
+            WRITE deduction TO payroll_report.txt
+            WRITE grossSalary TO payroll_report.txt
+            WRITE netSalary TO payroll_report.txt
+            WRITE salaryStatus TO payroll_report.txt
+
+            totalNetSalary = totalNetSalary + netSalary
+
+        ENDIF
+
+    ENDFOR
+
+    DISPLAY “==========================================”
+    DISPLAY “PAYROLL PROCESSING COMPLETED”
+    DISPLAY “==========================================”
+    DISPLAY “Total Employees Processed : “, totalEmployees
+    DISPLAY “Total Net Salary Paid     : “, totalNetSalary
+    DISPLAY “Payroll report saved successfully.”
+
+    CLOSE payroll_report.txt
+
+END
+
+
+
