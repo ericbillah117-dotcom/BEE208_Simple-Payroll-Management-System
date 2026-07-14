@@ -1,0 +1,41 @@
+
+           SIMPLE PAYROLL MANAGEMENT SYSTEM
+
+PAYROLL REPORT
+
+Employee 1
+Employee ID      : EMP001
+Employee Name    : Ama Mensah
+Department       : Administration
+
+Basic Salary     : GHS 2500.00
+Allowance         : GHS 300.00
+Deduction         : GHS 150.00
+
+Gross Salary     : GHS 2800.00
+Net Salary       : GHS 2650.00
+
+Payment Status   : Ready for Payment
+
+Employee 2
+Employee ID      : EMP002
+Employee Name    : Kojo Boateng
+Department       : Security
+
+Basic Salary     : GHS 1800.00
+Allowance         : GHS 200.00
+Deduction         : GHS 2500.00
+
+Gross Salary     : GHS 2000.00
+Net Salary       : GHS -500.00
+
+Payment Status   : Review Required
+
+SUMMARY
+Total Employees Processed : 2
+Total Gross Salary        : GHS 4800.00
+Total Net Salary          : GHS 2150.00
+
+Payroll report generated successfully.
+========================================================
+
