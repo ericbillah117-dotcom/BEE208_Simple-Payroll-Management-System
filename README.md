@@ -104,17 +104,20 @@ Solutions
 •	Used vectors and loops to manage multiple employees.
  
 Group Contribution
-Student	Suggested Role
-Student 1	Project Lead
-Student 2	Algorithm Writer
-Student 3	Pseudocode Writer
-Student 4	Flowchart Designer
-Student 5	C++ Programmer
-Student 6	C++ Programmer
-Student 7	Testing Lead
-Student 8	GitHub Manager
-Student 9	Documentation Lead
-Student 10	Presentation Lead
+### 👥 Group Members & Contributions
+| Student Name | Index Number | Suggested Role | Individual Contribution Description |
+| :--- | :--- | :--- | :--- |
+Andres Kwablu Amekudzi | 01242178B | Project Lead | Coordinated team meetings, managed final compilation check. |
+| Kingsley Arhin | 012427302B | Algorithm Writer | Drafted the logical progressio Name Exam resultn rules in algorithm.txt. |
+| Solomon Torgbor obodai| 012443691B | Pseudocode Writer | Transformed logic flow structural definitions into pseudocode.txt. |
+| Daniel Derrick | 01242897B | Flowchart Designer | Rendered system logical blocks into visual diagrams. |
+| Gilbert Odu| 01241924B | C++ Programmer | Authored Object-Oriented class structures and error bounds. |
+| Arthur Samuel | 01244339B | C++ Programmer | Programmed file system handling logic streams (ofstream). |
+| Richard Darko | 01246272B | Testing Lead | Prepared boundary test cases to break validation qbounds. |
+| Eric Kwaku Billah | 01243024B | GitHub Manager | Configured repository structure, branches, and version control. |
+| Ebenezer Dortsu Kwesi | 01243231B | Documentation Lead | Organized project documentation and formatted final outputs. |
+| Eyram Muworgbe| 01246599B | Presentation Lead | Structured presentation slide decks for oral evaluation defense. |
+
  
 Author
 Group 1.1
