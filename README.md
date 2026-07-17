@@ -116,7 +116,7 @@ Andres Kwablu Amekudzi | 01242178B | Project Lead | Coordinated team meetings, m
 | Richard Darko | 01246272B | Testing Lead | Prepared boundary test cases to break validation qbounds. |
 | Eric Kwaku Billah | 01243024B | GitHub Manager | Configured repository structure, branches, and version control. |
 | Ebenezer Dortsu Kwesi | 01243231B | Documentation Lead | Organized project documentation and formatted final outputs. |
-| Eyram Muworgbe| 01246599B | Presentation Lead | Structured presentation slide decks for oral evaluation defense. |
+| Eyram Nuworgbe| 01246599B | Presentation Lead | Structured presentation slide decks for oral evaluation defense. |
 
  
 Author
